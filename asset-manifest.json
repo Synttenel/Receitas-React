@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Receitas-React/static/css/main.7c838de0.css",
+    "main.js": "/Receitas-React/static/js/main.cac65cff.js",
+    "static/media/imagem.jpg": "/Receitas-React/static/media/imagem.270382af61594f8fd61e.jpg",
+    "index.html": "/Receitas-React/index.html",
+    "main.7c838de0.css.map": "/Receitas-React/static/css/main.7c838de0.css.map",
+    "main.cac65cff.js.map": "/Receitas-React/static/js/main.cac65cff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c838de0.css",
+    "static/js/main.cac65cff.js"
+  ]
+}
