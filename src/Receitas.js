@@ -3,7 +3,6 @@ import style from './Styles/style2.css';
 import { isFocusable } from '@testing-library/user-event/dist/utils/index.js';
 import Imagem from './Media/imagem.jpg';
 
-
 function Receitas(){
 
 // Variável de array de useState, usada para mostrar as categorias atuais.
