@@ -14,15 +14,15 @@ const [prevCategory, setPrevCategory] = useState(['sobremesas', 'frutos-marinhos
 
 // Variável de array de useState, usada para mostrar os títulos atuais.
    const [title, setTitle] = useState(['sorvete italiano', 'lagosta frita', 'carne argentina', 
-                                       'legumes alpinos']);
+                                       'legumes assados']);
 
 // Variável de array de useState, usada para mostrar as descrições atuais.
    const [text, setText] = useState(['sorvete sofisticado italiano', 'gostoso', 'eletrizante',
                                      'saudável']);
 
 // Variável de array de useState, usada para mostrar os links de redirecionamentos atuais.
-   const [link, setLink] = useState(['https:www.google.com', 'https:www.youtube.com', 
-                                     'https:www.twitter.com', 'https:www.twitch.tv']);
+   const [link, setLink] = useState(['https://www.tudogostoso.com.br/receita/83774-sorvete-italiano.html', 'https://coupleinthekitchen.com/easy-tempura-fried-lobster-tail-recipe/', 
+                                     'https://receitas.globo.com/receitas-da-tv/tempero-de-familia/como-fazer-parrilla-aprenda-preparar-o-tipico-churrasco-argentino-gnt.ghtml', 'https://cozinhadalbo.com.br/2014/12/legumes-assados-com-tomilho/']);
 
 // Variável de string de useState, usada para esconder os botões "adicionar" e "cancelar" no topo do site, esta variável é uma useState para poder mudar a cada atualização React da página.
    const [isVisible, setIsVisible] = useState('none');
@@ -254,7 +254,7 @@ const [prevCategory, setPrevCategory] = useState(['sobremesas', 'frutos-marinhos
 
          setTitle([...title, titleCustom.value.toLowerCase()]);
          setText([...text, textCustom.value.toLowerCase()]);
-         setLink([...link, `https:www.${linkCustom.value.toLowerCase()}`]);
+         setLink([...link, `https://www.${linkCustom.value.toLowerCase()}`]);
 
     // Quando tudo for adicionado, o programa irá apagar tudo o que foi digitado nos campos de input.
         categoryCustom.value = '';
